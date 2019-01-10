@@ -2,3 +2,5 @@
 *
 # Except this file
 !.gitignore
+!custom_features.csv
+!custom_tid.csv

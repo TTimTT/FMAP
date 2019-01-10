@@ -16,7 +16,8 @@ corresponds to one desired playlist. Two Demos folder are included as examples.
 - Finally, open `Playlist creator.ipynb`. Modify the parameters as you like.
 
 # Troubleshooting
-You may want to use the following conda environment to use these scripts: #TODO
+- You may want to use the following conda environment to use these scripts: #TODO  
+- If you have any trouble with `Extractor.ipynb`, an already extracted demos songs features are avalaible in the `data` folder, you can simply run `Playlist creator.ipynb`
 
 # Reference
 **FMA: A Dataset For Music Analysis**: Michaël Defferrard, Kirell Benzi, Pierre Vandergheynst, Xavier Bresson, 2017.  
