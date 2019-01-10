@@ -6,7 +6,17 @@ It can be tough to know what we would like to listen when faced with an archive 
 # Dataset
 Since the dataset is quite large, to use these scripts you have to download the following
 data: [fma_metadata.zip](https://os.unil.cloud.switch.ch/fma/fma_metadata.zip) (342 MiB).
+Extract the content of `fma_metadata` folder into the `data` folder.
 
+# Usage
+- Generate the corresponding small FMA dataset graph by running `Graph creator.ipynb` 
+- Put your music in the `audio` folder, you can add as many songs as you wish, each subfolder
+corresponds to one desired playlist. Two Demos folder are included as examples.
+- Run `Extractor.ipynb` to extract the features of each of your songs. (It will take some time)
+- Finally, open `Playlist creator.ipynb`. 
+
+# Troubleshooting
+You may want to use the following conda environment to use these scripts: #TODO
 
 # Reference
 **FMA: A Dataset For Music Analysis**: Michaël Defferrard, Kirell Benzi, Pierre Vandergheynst, Xavier Bresson, 2017.  
