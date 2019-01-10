@@ -13,7 +13,7 @@ Extract the content of `fma_metadata` folder into the `data` folder.
 - Put your music in the `audio` folder, you can add as many songs as you wish, each subfolder
 corresponds to one desired playlist. Two Demos folder are included as examples.
 - Run `Extractor.ipynb` to extract the features of each of your songs. (It will take some time)
-- Finally, open `Playlist creator.ipynb`. 
+- Finally, open `Playlist creator.ipynb`. Modify the parameters as you like.
 
 # Troubleshooting
 You may want to use the following conda environment to use these scripts: #TODO
