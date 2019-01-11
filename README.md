@@ -9,11 +9,13 @@ data: [fma_metadata.zip](https://os.unil.cloud.switch.ch/fma/fma_metadata.zip) (
 Extract the content of `fma_metadata` folder into the `data` folder.
 
 # Usage
-- Generate the corresponding small FMA dataset graph by running `Graph creator.ipynb` 
+- Generate the corresponding small FMA dataset graph by running `Graph creator.ipynb`. (You only need to do it one time)
 - Put your music in the `audio` folder, you can add as many songs as you wish, each subfolder
 corresponds to one desired playlist. Two Demos folder are included as examples.
 - Run `Extractor.ipynb` to extract the features of each of your songs. (It will take some time)
 - Finally, open `Playlist creator.ipynb`. Modify the parameters as you like.
+
+*Note: If you afterwards add other songs to be analyzed, you only need to re-execute `Extractor.ipynb` and `Playlist creator.ipynb`*
 
 # Troubleshooting
 - You may want to use the provided `environment.yml` conda environment to execute all the scripts properly
