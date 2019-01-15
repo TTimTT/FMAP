@@ -19,7 +19,7 @@ corresponds to one desired playlist. Two Demos folder are included as examples.
 
 # Troubleshooting
 - You may want to use the provided `environment.yml` conda environment to execute all the scripts properly
-- If you have any trouble with `Extractor.ipynb`, an already extracted demos songs features are avalaible in the `data` folder, you can simply run `Playlist creator.ipynb`
+- If you have any trouble with `Extractor.ipynb`, already made demo lists of extracted song features are avalaible in the `data` folder, you can simply run `Playlist creator.ipynb`
 
 # Reference
 **FMA: A Dataset For Music Analysis**: Michaël Defferrard, Kirell Benzi, Pierre Vandergheynst, Xavier Bresson, 2017.  
